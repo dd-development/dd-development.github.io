@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dante's Portfolio</title>
+    <link rel="icon" href="./portfolio_icon.png" type="image/x-icon">
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://dd-development.github.io/" class="link"
+          >DD.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I'm <span class="about__name">Dante.</span></h1>
+        <h2 class="about__role">dd-development</h2>
+        <p class="about__desc">
+          I'm a well-rounded software engineer with a passion for building visually appealing applications that provide users
+          with an engaging, interactive experience.
+        </p>
+
+        <p class="about__desc">
+          <b>
+          Below, you will find some of my projects. Under the description for each project is a link to its GitHub page and a link 
+          to a live demo video for the project. Thank you for visiting!
+          </b>
+        </p>
+
+        <!--
+        <div class="about__contact center">
+         
+          <a target="_blank" href="https://github.com/dd-development">
+            <span class="btn btn--outline">GitHub</span>
+          </a>
+        </div>
+        -->
+        
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3 id="hexavore">Hexavore</h3>
+            <p class="project__description">
+              Fast paced real-time puzzle game built for the web.
+
+              <br>
+              <br>
+
+              <a id="playLink" href="hexavore.html" target="_blank">
+                CLICK HERE TO PLAY THE GAME
+              </a>
+            </p>
+
+            <br>
+
+            <img id="goblin" class="project_img" src="gobgif.gif" ondragstart="return false;">
+
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a target="_blank"
+              href="https://github.com/dd-development/Hexavore"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a target="_blank"
+              href="https://www.youtube.com/watch?v=wq5aOGadlFw"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3 id="oceansweep">OceanSweep</h3>
+            <p class="project__description">
+              Web application and volunteer platform for organizing waterfront cleanup and fundraising events.
+            </p>
+
+            <br>
+
+            <img id="oslogo" class="project_img" src="osgif.gif" ondragstart="return false;">
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Next.js</li>
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">Tailwind CSS</li>
+              <li class="project__stack-item">PostgreSQL</li>
+            </ul>
+
+            <a target="_blank"
+              href="https://github.com/dd-development/OceanSweep"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a target="_blank"
+              href="https://www.youtube.com/watch?v=SWAJxBK2eas"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3 id="campusnavigator">Campus Navigator</h3>
+            <p class="project__description">
+              Application that finds the optimal location for two students to meet at on any given college campus.
+            </p>
+
+            <br>
+
+            <img id="walk" class="project_img" src="walk1.gif" ondragstart="return false;">
+
+            <ul class="project__stack">
+              <li class="project__stack-item">C++</li>
+            </ul>
+
+            <a target="_blank"
+              href="https://github.com/dd-development/Campus-Navigator"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a target="_blank"
+              href="https://www.youtube.com/watch?v=huNKfUjojK8"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3 id="squeeze">SQUEEZE!</h3>
+            <p class="project__description">
+              Web based lemonade stand economy simulator game. Aliens might invade.
+            </p>
+
+            <br>
+
+            <img id="lemon" class="project_img" src="lemon.gif" ondragstart="return false;">
+
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a target="_blank"
+              href="https://github.com/dd-development/SQUEEZE"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a target="_blank"
+              href="https://www.youtube.com/watch?v=_VSMJDxGnTw"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3 id="battleship">Battleship</h3>
+            <p class="project__description">
+              Highly interactive, graphical version of Battleship. Can be played online with another human player or with an AI opponent. 
+            </p>
+
+            <br>
+
+            <img id="battle" class="project_img" src="battlegif.gif" ondragstart="return false;">
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">JavaFX</li>
+            </ul>
+
+            <a target="_blank"
+              href="https://github.com/dd-development/Battleship"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a target="_blank"
+              href="https://www.youtube.com/watch?v=pjuQ07XiJLk"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Next.js</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Tailwind CSS</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">Arduino</li>
+          <li class="skills__list-item btn btn--plain">x86 Assembly</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">JavaFX</li>
+          <li class="skills__list-item btn btn--plain">Scala</li>
+          <li class="skills__list-item btn btn--plain">Maven</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Flask</li>
+          <li class="skills__list-item btn btn--plain">F#</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="https://dd-development.github.io/"
+        class="link footer__link"
+      >
+        Thank you for visiting my portfolio!
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
