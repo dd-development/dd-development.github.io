@@ -48,6 +48,10 @@
   color: red;
 }
 
+#evilteddybear {
+  color: magenta;
+}
+
 #squeeze {
   color: #fff839;
   text-shadow:
@@ -70,7 +74,6 @@
 #lemon {
   width: 11em;
   height: 11em;
-  user-select: none;
 }
 
 #walk {
@@ -80,6 +83,11 @@
 #battle {
   width: 7em;
   height: 10em;
+}
+
+#teddy {
+  width: 6em;
+  height: 6em;
 }
 
 html {
